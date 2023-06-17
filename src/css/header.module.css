@@ -1,0 +1,183 @@
+.main{
+    width:1440px;
+    height:88px;
+    
+
+}
+
+
+.imgicon{
+    display: flex;
+    align-items: center;
+    
+    position:absolute;
+    z-index:2;
+     
+}
+
+.imgicon img{
+width:24px;
+height:24px;
+margin-left:22px;
+ 
+margin-top:34px;
+}
+
+.imgicon h3 {
+    width: 98px;
+    position:absolute;
+height: 24px;
+margin-top:34px;
+margin-left:55px;
+font-family:'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D062D;
+
+
+ 
+ 
+
+}
+
+.imgicon svg{
+    position:absolute;
+    width: 26px;
+height: 20px;
+ color: #787486;
+ margin-left:199px;
+ margin-top: 34px;
+}
+
+.headerborder{
+position:absolute;
+width:1438.5px;
+height:0px;
+border:1px solid #DBDBDB;
+ z-index:2;
+}
+
+.sidebarborder{
+    position:absolute;
+   
+    width:0px;
+    height:931px;
+    border: 1px solid #DBDBDB;
+    margin-left: 250.5px;
+     margin-top:-88px;
+z-index:2;
+}
+
+
+
+/* ************************* */
+
+.input{
+    margin-left:299px;
+    margin-top:22px;
+    box-sizing:border-box;
+    position: absolute;
+    width:417px;
+    height:44px;
+    background:#F5F5F5;
+    border-radius:6px;
+}
+ 
+.input  input {
+    position: absolute;
+    width:148px;
+     height:22px;
+     font-family:'Inter';
+ font-size:14px;
+ font-weight:400;
+ line-height:17px;
+ outline:none;
+ border:none;
+background-color: #F5F5F5;
+ color:#787486;
+margin-top: 13px;
+margin-left: 54.8px;
+}
+.svg{
+     position:absolute; 
+     margin-left:18.63px;
+    margin-top:11px;
+    margin-bottom:14.75px;
+}
+
+.svg svg path{
+    position: absolute;
+     
+        fill:#787486;
+      
+     
+}
+
+
+.notification{
+    position: absolute;
+    margin-left:1021px;
+    margin-top:32px;
+}
+ 
+
+.headertext{
+    position: absolute;
+
+}
+.headertext  h6{
+    position: absolute;
+    width:113px;
+    height:19px;
+    font-family:'Inter';
+    font-style: normal;
+font-weight:400;
+font-size:16px;
+line-height:19px;
+text-align: right;
+color: #0D062D; 
+margin-left:1191px;
+margin-top:24px;   
+}
+.headertext p{
+position: absolute;
+    width:62px;
+    height:17px;
+    font-family:'Inter';
+    font-style: normal;
+font-weight:400;
+font-size:14px;
+line-height:17px;
+text-align: right;
+color: #787486;
+margin-top:46px;
+margin-left:1242px;
+}
+ 
+
+.imageheader{
+
+position:absolute;
+margin-top:24px;
+margin-left: 1320px;
+width:47px;
+height:71px;
+
+
+}
+.imageheader img{
+   border-radius:30px;
+}
+
+ 
+
+.downarrow img {
+    position: absolute;
+    margin-top:40.15px;
+    margin-left: 1376.5px;
+    width:13px;
+    height:6.45px; 
+}
