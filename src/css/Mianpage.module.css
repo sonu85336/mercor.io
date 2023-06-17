@@ -1,0 +1,179 @@
+.main{
+    position:absolute;
+    width:250.5px;
+    height:844px;
+     
+    margin-left:250.5px;
+}
+
+.header{
+display: flex;
+}
+
+.header h1{
+    position: absolute;
+     margin-top:49px;
+     margin-left:48.5px;
+
+     width:253px;
+     height:56px;
+     font-family:'Inter';
+     font-style: normal;
+ font-weight:600;
+ font-size:46px;
+ line-height:56px;
+ text-transform:capitalize;
+ color:#0D062D;
+ 
+     
+}
+ 
+.avtar img {
+    position: absolute;
+width:237px;
+height:38px;
+margin-top:50px;
+
+margin-left:534.5px;
+
+}
+.mainheader{
+    display: flex;
+
+    position: absolute;
+}
+
+.midheader{
+
+    margin-top: 137px;
+    margin-left:48.5px;
+display: flex;
+align-items: center;
+}
+
+.midheader button{
+     
+    background-color:#FFFFFF;
+box-sizing: border-box;
+width: 122px;
+height: 40px;
+max-width: 122px;
+border: 1px solid #787486;
+border-radius: 6px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+color: #787486;
+ 
+margin-right: 12px;
+}
+ 
+.filter{
+    display: flex;
+}
+.filter img{
+    position: absolute;
+       width: 16px;
+    height:16px;
+    margin-top: 13px;
+    margin-left: 17.27px;
+ margin-right:8.27px;
+}
+ 
+ 
+ .downarrow  img {
+    position: absolute;
+    
+    margin-left:88.22px;
+    width:11.56px;
+    height:5.73px; 
+    color: #787486;
+}
+
+.today{
+    display: flex;
+    
+}
+ 
+.today img {
+    position: absolute;
+    width: 16px;
+ height:16px;
+ margin-top: 13px;
+ margin-left: 17.27px;
+margin-right:8.27px;
+}
+ 
+.downarrowtoday  {
+     
+   position: absolute;
+}
+ 
+.downarrowtoday img{
+    width:11.56px;
+    height:5.73px; 
+    color: #787486;
+    margin-top:17.47px;
+margin-left:92px;
+}
+ .share {
+    display: flex;
+    margin-left:617px;
+    width:97px;
+    height:40px;
+    
+ }
+
+ .share button{
+  text-align: right;
+ }
+ .share img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left:16.07px;
+    margin-top:13.83px;
+    
+ }
+
+ .line {
+position:absolute;
+    width:0px;
+    height:28px;
+    border:1px solid #787486;
+    margin-left:990px;
+     
+ }
+.equal{
+    margin-top:-40px;
+    margin-left:30px;
+}
+ .equal  div{
+    position: absolute;
+     width:40px;
+    height:40px;
+    border-radius:6px;
+    background-color: #5030E5;
+ 
+ }
+ .equal img{
+    position:absolute;
+width:20px;
+height:20px;
+z-index:2;
+ margin-top: 10px;
+ margin-left: 10px;
+ 
+
+
+ }
+
+ .dotgrid{
+    position: absolute;
+    margin-left:1075px;
+ }
+ 

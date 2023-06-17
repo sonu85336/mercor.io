@@ -1,0 +1,130 @@
+.main{
+    color:red;
+position:absolute;
+margin-left: 400px;
+margin-top: 400px;
+}
+
+.todo{
+    position: absolute;
+    width: 354px;
+    height:625px;
+    background:#F5F5F5;
+    border-radius:16px 16px 0px 0px;
+    margin-left: 299px;
+    margin-top:219px;
+}
+.todosvg{
+    display: flex;
+    align-items: center;
+}
+.todosvg section{
+    font-family:'Inter';
+    height:19px;
+    font-style:normal;
+    font-weight:500;
+    line-height:19px;
+    font-size:16px;
+    color: #0D062D;
+    margin-left:8px;
+    margin-top: 21px;
+}
+.todosvg svg {
+    width: 8px;
+    height: 8px;
+    margin-left: 20px;
+  margin-top: 26px;
+     
+    color:#5030E5;
+  }
+  .todosvg span {
+    box-sizing: border-box;
+
+    
+    width:20px;
+    height:20px;
+background: #E0E0E0;
+border-radius:10px;
+margin-top:20px;
+ margin-left:12px;
+  }
+.todosvg p {
+    font-family: "Inter";
+    font-style:normal;
+    line-height:15px;
+    font-weight: 500;
+    font-size: 12px;
+    color:#625F6D;
+    
+    margin-top:3px;
+    text-align: center;
+
+    }
+
+ 
+
+.onProgress{
+    position: absolute;
+    width: 354px;
+    height:625px;
+    background:#F5F5F5;
+    border-radius:16px 16px 0px 0px;
+    margin-left:668px;
+    margin-top:219px;
+}
+.onProgress svg {
+    width: 8px;
+    height: 8px;
+    margin-left: 20px;
+  
+    margin-top: 26px;
+    color: #ffa500;
+  }
+
+  
+.done{
+    position: absolute;
+    width: 354px;
+    height:625px;
+    background:#F5F5F5;
+    border-radius:16px 16px 0px 0px;
+    margin-left:1038px;
+    margin-top:219px;
+}
+.done svg {
+    width: 8px;
+    height: 8px;
+    margin-left: 20px;
+    margin-top: 26px;
+     
+    color:#76A5EA;
+  }
+
+
+  .line1{
+    width:314px;
+    height:0px;
+    background:#800080;
+    border:3px solid #5030E5;
+    margin-top:63px;
+    margin-left:20px;
+        }
+
+
+        .line2{
+            width:314px;
+            height:0px;
+             
+            border:3px solid #FFA500;
+            margin-top:63px;
+            margin-left:20px;
+                }
+
+                .line3{
+                    width:314px;
+                    height:0px;
+                    
+                    border:3px solid #8BC48A;
+                    margin-top:63px;
+                    margin-left:20px;
+                        }
