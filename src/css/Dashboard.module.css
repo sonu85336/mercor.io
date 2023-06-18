@@ -6,20 +6,24 @@
 }
 
 .todo {
-  position: absolute;
+    position: absolute;  
   width: 354px;
   height: 625px;
   background: #f5f5f5;
   border-radius: 16px 16px 0px 0px;
   margin-left: 299px;
   margin-top: 219px;
+  overflow: scroll;
+}
+.todo::-webkit-scrollbar {
+  display: none;
 }
 .todosvg {
   display: flex;
   align-items: center;
 }
 .todosvg img {
-  position: absolute;
+   position: absolute;  
   margin-left: 310px;
   margin-top: 20px;
   width: 20px;
@@ -74,13 +78,17 @@
 }
 
 .onProgress {
-  position: absolute;
+  position: absolute;  
   width: 354px;
   height: 625px;
   background: #f5f5f5;
   border-radius: 16px 16px 0px 0px;
   margin-left: 668px;
   margin-top: 219px;
+overflow-y: scroll;
+}
+.onProgress::-webkit-scrollbar {
+  display: none;
 }
 .onProgress svg {
   width: 8px;
@@ -92,13 +100,17 @@
 }
 
 .done {
-  position: absolute;
+   position: absolute;  
   width: 354px;
   height: 625px;
   background: #f5f5f5;
   border-radius: 16px 16px 0px 0px;
   margin-left: 1038px;
   margin-top: 219px;
+  overflow-y: scroll;
+}
+.done::-webkit-scrollbar {
+  display: none;
 }
 .done svg {
   width: 8px;
@@ -139,7 +151,7 @@
 
 
 .card{
-position:absolute;
+ 
 width:314px;
 height: 177px;
 background:#FFFFFF;
@@ -177,11 +189,20 @@ font-size:16px;
 line-height:19px;
 letter-spacing:-0.07em;
 color:#0D062D;
-margin-top: 19px;
+ margin-top: 5px;
 margin-left:222px;
 }
+.cardtext {
+  width:314px;
+  height:177px;
+  background-color:#FFFFFF;
+  border-radius:16px;
+margin-left: 20px;
+margin-top:28px;
+margin-bottom: 20px;
+}
 
-.card h6{
+.cardtext h6{
     width:123px;
     height: 22px;
     font-family:'Inter';
@@ -195,7 +216,7 @@ margin-left:222px;
     margin-left:20px;
 }
 
-.card p {
+.cardtext p {
     width:274px;
     height: 30px;
     font-family:'Inter';
@@ -209,4 +230,281 @@ margin-left:222px;
     margin-left:20px;
 }
 
+.cardtextprogress {
+width:314px;
+height: 258px;
+border-radius:16px;
+background-color:#FFFFFF;
+ margin-top:28px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+}
+.progressimg1 img {
+  width: 281.68px;
+  height: 110px;
+  margin-left:20px;
+  margin-top:7px;
+}
+
+
+
+.cardtextprogress h6{
+  width:210px;
+  height: 22px;
+  font-family:'Inter';
+  font-weight:600;
+  font-style:normal;
+  font-size:18px;
+  line-height:22px;
+  
+  color:#0D062D;
+  margin-top: 4px;
+  margin-left:20px;
+}
+
+.cardtextprogress1 {
+  width:314px;
+  height: 227px;
+  border-radius:16px;
+  background-color:#FFFFFF;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+
+.progressimg2 img {
+  width: 131px;
+  height: 79px;
+  margin-left:20px;
+  margin-top:7px;
+}
+
+
+
+.cardtextprogress1 h6{
+  width:101px;
+  height: 22px;
+  font-family:'Inter';
+  font-weight:600;
+  font-style:normal;
+  font-size:18px;
+  line-height:22px;
+  
+  color:#0D062D;
+  margin-top: 4px;
+  margin-left:20px;
+}
+
+
+.cardtextdone{
+  width:314px;
+  height: 328px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  margin-top: 28px;
+  margin-left: 20px;
+}
+
+.cardheader1 {
+  display: flex;
+  align-items: center;
+  }
+  .cardheader1 section {
+  width:76px;
+  height:23px;
+  
+  background:rgba(131,194,157,0.2);
+  border-radius:4px;
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  color: #68B266;
+  margin-top: 20px;
+  margin-left:20px;
+  text-align: center;
+  padding-top:4px;
+  }
+  
+  .cardheader1 span{
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  line-height:19px;
+  letter-spacing:-0.07em;
+  color:#0D062D;
+   margin-top: 5px;
+  margin-left:182px;
+  }
+  
+
+.cardtextdone h6{
+  width:164px;
+  height: 22px;
+  font-family:'Inter';
+  font-weight:600;
+  font-style:normal;
+  font-size:18px;
+  line-height:22px;
+  
+  color:#0D062D;
+  margin-top: 4px;
+  margin-left:20px;
+}
+
+.donemainimg  img{
+  
+  width:274px;
+  height:180px;
+   margin-left:20px;
+   
+}
+ 
+.todofilesdone {
+  display:flex;
+  align-items: center;
+  
+}
+.todofilesdone section{
+  width:41px;
+  height: 15px;
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  
+  color:#787486;
+  
+  margin-left:35px;
+
+}
+
+.cardtextdonecard {
+width:314px;
+height:177px;
+background-color:#FFFFFF;
+border-radius:16px;
+margin-top:20px;
+margin-left: 20px;
+
+}
+.cardtextdonecard h6{
+  width:131px;
+  height: 22px;
+  font-family:'Inter';
+  font-weight:600;
+  font-style:normal;
+  font-size:18px;
+  line-height:22px;
+  
+  color:#0D062D;
+  margin-top: 4px;
+  margin-left:20px;
+}
+
+.cardtextdonecard p {
+  width:274px;
+  height: 30px;
+  font-family:'Inter';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  
+  color:#787486;
+  margin-top: 6px;
+  margin-left:20px;
+}
+
+
+
+
+
+.todoavatar {
+  display: flex;
+  align-items:center;
+  margin-top:28px;
+}
+
+.todoavatar img{
+    box-sizing: border-box;
+    width: 24px;
+    height:24px;
+    border:1px solid #FFFFFF;
+ 
+  
+ 
+ 
+ 
+}
+.comments       {
+  display: flex;
+  align-items: center;
+}
+.comments img {
+  width:14px;
+  height: 14px;
+   
+  margin-left:126.83px;
+
+}
+.comments section{
+
+  width:77px;
+  height: 15px;
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  
+  color:#787486;
+  
+  margin-left:5.83px;
+}
+
+.todofiles {
+  display:flex;
+  align-items: center;
+}
+.todofiles section{
+  width:35px;
+  height: 15px;
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  
+  color:#787486;
+  
+  margin-left:35px;
+
+}
+.todofiles1 {
+  display:flex;
+  align-items: center;
+}
+.todofiles1 section{
+  width:41px;
+  height: 15px;
+  font-family:'Inter';
+  font-weight:500;
+  font-style:normal;
+  font-size:12px;
+  line-height:15px;
+  
+  color:#787486;
+  
+  margin-left:35px;
+
+}
+ 
+
+
+ 
 

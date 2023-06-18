@@ -3,6 +3,7 @@ import classes from "../css/sidebar.module.css";
 
 import gridicon from "../assests/icons/gridicon.svg";
 import messageicon from "../assests/icons/message.svg";
+
 import checklisticon from "../assests/icons/checklist.svg";
 import groupicon from "../assests/icons/groupicon.svg";
 

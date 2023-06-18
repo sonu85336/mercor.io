@@ -10,10 +10,31 @@ import pluscard from "../assests/icons/pluscard.png";
 import messageicon from "../assests/icons/message.svg";
 import { useDrag, useDrop } from 'react-dnd'
 function Dashboard() {
- 
- 
+  // const [{isDragging}, drag] = useDrag(() => ({
+  //   type: ItemTypes.CARD,
+  //   collect: monitor => ({
+  //     isDragging: !!monitor.isDragging(),
+  //   }),
+  // }))
+
+  // const [{isDragging2}, drag2] = useDrag(() => ({
+  //   type: ItemTypes.CARD,
+  //   collect: monitor => ({
+  //     isDragging: !!monitor.isDragging(),
+  //   }),
+  // }))
+
+  // const [{isOver},addToRef]  = useDrop({
+  //   accept:"Card",
+  //   collect:(monitor)=>({isOver:!!monitor.isOver()}),
+  // });
+
+  // const [{isOver:isCardOver},removeFromRef]  = useDrop({
+  //   accept:"Card2",
+  //   collect:(monitor)=>({isOver:!!monitor.isOver()}),
+  // });
   return (
-    <div >
+    <div>
     
       <div className={classes.todo}>
         <div>
@@ -29,7 +50,7 @@ function Dashboard() {
 
           <div className={classes.line1}></div>
         </div>
-{/* 
+
         <div className={classes.card}>
           <div className={classes.cardheader}>
             <section>Low</section>
@@ -63,7 +84,7 @@ function Dashboard() {
               <section>0 files</section>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>{" "}
       {""}
       <div className={classes.onProgress}>
@@ -77,7 +98,25 @@ function Dashboard() {
           </span>
           <div className={classes.line2}></div>
         </div>
- 
+
+       
+        {/* <div ref={drag} opacity={isDragging?0.5:1}  style={{opacity:`${isDragging}? 0.5 :`}}>
+          <h1  >item1</h1>
+        </div>
+        <div  ref={drag2}>
+          <h1  >item2</h1>
+        </div>
+        <div ref={drag}>
+          <h1  >item3</h1>
+        </div>
+        <div>
+          <h1  >item4</h1>
+        </div> */}
+          
+           
+          
+
+
        
       </div>{" "}
       {""}
